@@ -6,7 +6,7 @@ Voici comment ton texte sera formaté en Markdown pour GitHub :
 This project is a Python script that generates a Minecraft `/give` command with enchantments. It allows users to select an item, target, and enchantments, and then generates a command that can be used in Minecraft to give the item with the specified enchantments to the target.
 
 ## Dependencies
-- Python 3.x
+- Python 3
 
 ## Installation
 
@@ -23,7 +23,7 @@ This project is a Python script that generates a Minecraft `/give` command with 
 3. Run the script
 
     ```bash
-    python main.py
+    python give-command-gen.py
     ```
 
 ## Usage
@@ -31,7 +31,7 @@ This project is a Python script that generates a Minecraft `/give` command with 
 1. Run the script
 
     ```bash
-    python main.py
+    python give-command-gen.py
     ```
 
 2. Select the target
@@ -44,7 +44,7 @@ This project is a Python script that generates a Minecraft `/give` command with 
 
 4. Select the enchantments and their levels
 
-    Select the enchantments and their levels (e.g. Blast Protection: 3)
+    Select the enchantments and their levels (e.g. `Blast Protection: 3`)
 
 5. Click the "Generate Command" button
 
