@@ -1,5 +1,3 @@
-Voici comment ton texte sera formaté en Markdown pour GitHub :
-
 # Minecraft Enchantment Generator
 
 ## Description
