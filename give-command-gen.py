@@ -1,3 +1,4 @@
+import os
 import tkinter as tk
 from tkinter import ttk
 import json
@@ -7,10 +8,17 @@ class MinecraftCommandGenerator:
         self.root = root
         self.root.title("Minecraft Command Generator")
 
+        # Obtenir le répertoire contenant le script
+        self.script_dir = os.path.dirname(os.path.abspath(__file__))
+
+        # Construire les chemins vers les fichiers JSON
+        self.enchantments_path = os.path.join(self.script_dir, 'enchantments.json')
+        self.items_path = os.path.join(self.script_dir, 'items.json')
+
         # Charger les JSON
-        with open(r'enchantments.json') as f:
+        with open(self.enchantments_path) as f:
             enchantments_data = json.load(f)
-        with open(r'items.json') as f:
+        with open(self.items_path) as f:
             items_data = json.load(f)
 
         # Récupérer les listes des enchantements et des objets
