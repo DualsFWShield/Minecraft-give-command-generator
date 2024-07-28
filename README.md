@@ -11,7 +11,7 @@ This project is a Python script that generates a Minecraft `/give` command with 
 1. Clone the repository
 
     ```bash
-    git clone https://github.com/your-username/minecraft-enchantment-generator.git
+    git clone https://github.com/DualsFWShield/Minecraft-give-command-generator.git
     ```
 
 2. Install Python 3
