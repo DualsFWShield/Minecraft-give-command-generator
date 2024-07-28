@@ -8,9 +8,9 @@ class MinecraftCommandGenerator:
         self.root.title("Minecraft Command Generator")
 
         # Charger les JSON
-        with open(r'C:\Users\Toyger\Downloads\enchantments.json') as f:
+        with open(r'enchantments.json') as f:
             enchantments_data = json.load(f)
-        with open(r'C:\Users\Toyger\Downloads\items-output.json') as f:
+        with open(r'items.json') as f:
             items_data = json.load(f)
 
         # Récupérer les listes des enchantements et des objets
