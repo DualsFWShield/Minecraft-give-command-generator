@@ -1,0 +1,144 @@
+{
+  "enchantments": [
+    {
+      "name": "Protection",
+      "maxLevel": 4,
+      "incompatibleWith": ["Fire Protection", "Blast Protection", "Projectile Protection"]
+    },
+    {
+      "name": "Fire Protection",
+      "maxLevel": 4,
+      "incompatibleWith": ["Protection", "Blast Protection", "Projectile Protection"]
+    },
+    {
+      "name": "Blast Protection",
+      "maxLevel": 4,
+      "incompatibleWith": ["Protection", "Fire Protection", "Projectile Protection"]
+    },
+    {
+      "name": "Projectile Protection",
+      "maxLevel": 4,
+      "incompatibleWith": ["Protection", "Fire Protection", "Blast Protection"]
+    },
+    {
+      "name": "Sharpness",
+      "maxLevel": 5,
+      "incompatibleWith": ["Smite", "Bane of Arthropods"]
+    },
+    {
+      "name": "Smite",
+      "maxLevel": 5,
+      "incompatibleWith": ["Sharpness", "Bane of Arthropods"]
+    },
+    {
+      "name": "Bane of Arthropods",
+      "maxLevel": 5,
+      "incompatibleWith": ["Sharpness", "Smite"]
+    },
+    {
+      "name": "Knockback",
+      "maxLevel": 2,
+      "incompatibleWith": []
+    },
+    {
+      "name": "Fire Aspect",
+      "maxLevel": 2,
+      "incompatibleWith": []
+    },
+    {
+      "name": "Looting",
+      "maxLevel": 3,
+      "incompatibleWith": []
+    },
+    {
+      "name": "Efficiency",
+      "maxLevel": 5,
+      "incompatibleWith": []
+    },
+    {
+      "name": "Silk Touch",
+      "maxLevel": 1,
+      "incompatibleWith": []
+    },
+    {
+      "name": "Unbreaking",
+      "maxLevel": 3,
+      "incompatibleWith": []
+    },
+    {
+      "name": "Fortune",
+      "maxLevel": 3,
+      "incompatibleWith": []
+    },
+    {
+      "name": "Power",
+      "maxLevel": 5,
+      "incompatibleWith": []
+    },
+    {
+      "name": "Punch",
+      "maxLevel": 2,
+      "incompatibleWith": []
+    },
+    {
+      "name": "Infinity",
+      "maxLevel": 1,
+      "incompatibleWith": []
+    },
+    {
+      "name": "Luck of the Sea",
+      "maxLevel": 3,
+      "incompatibleWith": []
+    },
+    {
+      "name": "Lure",
+      "maxLevel": 3,
+      "incompatibleWith": []
+    },
+    {
+      "name": "Frost Walker",
+      "maxLevel": 2,
+      "incompatibleWith": []
+    },
+    {
+      "name": "Mending",
+      "maxLevel": 1,
+      "incompatibleWith": []
+    },
+    {
+      "name": "Curse of Vanishing",
+      "maxLevel": 1,
+      "incompatibleWith": []
+    },
+    {
+      "name": "Curse of Binding",
+      "maxLevel": 1,
+      "incompatibleWith": []
+    },
+    {
+      "name": "Sweeping Edge",
+      "maxLevel": 3,
+      "incompatibleWith": []
+    },
+    {
+      "name": "Impaling",
+      "maxLevel": 5,
+      "incompatibleWith": []
+    },
+    {
+      "name": "Riptide",
+      "maxLevel": 3,
+      "incompatibleWith": []
+    },
+    {
+      "name": "Loyalty",
+      "maxLevel": 3,
+      "incompatibleWith": []
+    },
+    {
+      "name": "Channeling",
+      "maxLevel": 1,
+      "incompatibleWith": []
+    }
+  ]
+}
