@@ -18,7 +18,11 @@ This project is a Python script that generates a Minecraft `/give` command with 
 
     If you haven't already, install Python 3.x from the official website: [Python Downloads](https://www.python.org/downloads/)
 
-3. Run the script
+3. Place JSON files
+
+    Ensure that the `enchantments.json` and `items.json` files are located in the same directory as the script. The script will automatically look for these files in its own directory.
+
+4. Run the script
 
     ```bash
     python give-command-gen.py
